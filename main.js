@@ -2,7 +2,7 @@ console.log("hello");
 
 let products = [
   {
-    img: "./spring-collection.png",
+    img: "./assets/spring-collection.png",
     name: "Spring Collection: Pre-Order",
     stars: 5,
     votes: 3,
@@ -10,7 +10,7 @@ let products = [
     seller: "Bons Co"
   },
   {
-    img: "/extra-large-mystery.png",
+    img: "./assets/extra-large-mystery.png",
     name: "Extra Large Mystery Mix Bons",
     stars: 4,
     votes: 11,
