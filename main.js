@@ -2,7 +2,7 @@ console.log("hello");
 
 let products = [
   {
-    img: "./assets/spring-collection.png",
+    img: "/assets/spring-collection.png",
     name: "Spring Collection: Pre-Order",
     stars: 5,
     votes: 3,
@@ -10,7 +10,7 @@ let products = [
     seller: "Bons Co"
   },
   {
-    img: "./assets/extra-large-mystery.png",
+    img: "/assets/extra-large-mystery.png",
     name: "Extra Large Mystery Mix Bons",
     stars: 4,
     votes: 11,
@@ -18,7 +18,7 @@ let products = [
     seller: "Bons Mystery"
   },
   {
-    img: "./assets/small-mystery.png",
+    img: "/assets/small-mystery.png",
     name: "Small Mystery Mix Bons",
     stars: 5,
     votes: 25,
@@ -26,7 +26,7 @@ let products = [
     seller: "Bons Mystery"
   },
   {
-    img: "./assets/flight-quartet.png",
+    img: "/assets/flight-quartet.png",
     name: "Bon Flight Quartet",
     stars: 5,
     votes: 2,
@@ -34,7 +34,7 @@ let products = [
     seller: "Bons Deluxe"
   },
   {
-    img: "./assets/breakfast-in-bed.png",
+    img: "/assets/breakfast-in-bed.png",
     name: "Breakfast in Bed Bons",
     stars: 5,
     votes: 6,
@@ -42,7 +42,7 @@ let products = [
     seller: "Bons Co"
   },
   {
-    img: "./assets/vegan-cutie.png",
+    img: "/assets/vegan-cutie.png",
     name: "Vegan Cutie Bon Trio",
     stars: 5,
     votes: 2,
@@ -50,7 +50,7 @@ let products = [
     seller: "Bons Veggie"
   },
   {
-    img: "./assets/cutie-fruity.png",
+    img: "/assets/cutie-fruity.png",
     name: "Cutie Fruity Bons",
     stars: 5,
     votes: 2,
@@ -58,7 +58,7 @@ let products = [
     seller: "Bons Co"
   },
   {
-    img: "./assets/de-blanc.png",
+    img: "/assets/de-blanc.png",
     name: "Bons de Blanc",
     stars: 3,
     votes: 2,
@@ -66,7 +66,7 @@ let products = [
     seller: "Bons Deluxe"
   },
   {
-    img: "./assets/album.png",
+    img: "/assets/album.png",
     name: "Dark Smooth Album",
     stars: 0,
     votes: 0,
@@ -74,7 +74,7 @@ let products = [
     seller: "More Chocolate"
   },
   {
-    img: "./assets/cassette-tape.png",
+    img: "/assets/cassette-tape.png",
     name: "Mix Tape Cassette",
     stars: 5,
     votes: 2,
