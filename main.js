@@ -2,7 +2,7 @@ console.log("hello");
 
 let products = [
   {
-    img: "/spring-collection.png",
+    img: "./spring-collection.png",
     name: "Spring Collection: Pre-Order",
     stars: 5,
     votes: 3,
