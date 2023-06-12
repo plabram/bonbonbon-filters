@@ -100,14 +100,14 @@ pushStars(products, starIcons)
 const filtersElement = document.querySelector(".filter")
 
 filtersElement.innerHTML += `
-<form id="filter-form">
-        <div id="seller-filter" class="product-filters"></div>
-        <div id="price-filter" class="product-filters"></div>
-        <div class="filter-buttons">
-          <button type="submit">Search</button>
-          <button type="reset" id="reset-button">Clean Filters</button>
-        </div>
-      </form>
+  <form id="filter-form">
+    <div id="seller-filter" class="product-filters"></div>
+    <div id="price-filter" class="product-filters"></div>
+    <div class="filter-buttons">
+      <button type="submit">Search</button>
+      <button type="reset" id="reset-button">Clean Filters</button>
+    </div>
+  </form>
 `
 
 // SET UP PRODUCTS
@@ -199,3 +199,23 @@ const resetFilters = (event) => {
 
 const resetButton = document.querySelector("#reset-button")
 resetButton.addEventListener("click", resetFilters)
+
+// CREATE SEARCH FILTER
+
+const normalizeText = (text) => text.trim().toLowerCase()
+
+const applySearchFilter = (event) => {
+  productCategoryDiv.innerHTML = ""
+  const value = event.target.value
+  const normalizedSearch = normalizeText(value)
+  console.log(normalizedSearch)
+
+  const filteredProducts = products.filter((producto) => {
+    const normalizedName = normalizeText(producto.name)
+    return normalizedName.includes(normalizedSearch)
+  })
+  setUpProducts(filteredProducts)
+}
+
+const search = document.querySelector("#search")
+search.addEventListener("input", applySearchFilter)
