@@ -72,6 +72,10 @@ select {
   padding: 5px;
 }
 
+input:focus {
+  border: var(--bonbonred);
+}
+
 #search {
   justify-items: center;
   width: calc(100% - 20px);
